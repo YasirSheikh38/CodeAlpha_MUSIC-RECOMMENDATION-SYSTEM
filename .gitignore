@@ -1,3 +1,25 @@
+# Ignore all CSV files
+*.csv
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Keep Jupyter Notebook files
+# (No rule here means they are included by default)
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
